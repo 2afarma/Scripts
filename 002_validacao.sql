@@ -4,6 +4,7 @@ SET QUOTED_IDENTIFIER ON;
 USE [2A_farmaProd];
 GO
 
+
 IF OBJECT_ID(N'Organizacao', N'U') IS NULL
     THROW 51000, 'Tabela Organizacao não encontrada.', 1;
 IF OBJECT_ID(N'Filial', N'U') IS NULL
